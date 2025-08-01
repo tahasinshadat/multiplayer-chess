@@ -2,6 +2,6 @@
 #include "pawn.h";
 using namespace std;
 
-vector<int> Pawn::getMoveSet() {
+vector<pair<int, int>> Pawn::getMoveSet(int boardSize) {
     
 }

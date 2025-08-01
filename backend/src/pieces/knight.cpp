@@ -2,6 +2,6 @@
 #include "knight.h";
 using namespace std;
 
-vector<int> Knight::getMoveSet() {
+vector<pair<int, int>> Knight::getMoveSet(int boardSize) {
     
 }

@@ -8,7 +8,7 @@
 class Rook : public Piece {
 public:
     Rook(const int8_t color, int8_t row, int8_t col) : Piece(color, row, col) {}
-    std::vector<int> getMoveSet() override;    
+    std::vector<std::pair<int, int>> getMoveSet(int boardSize) override;    
 };
 
 #endif

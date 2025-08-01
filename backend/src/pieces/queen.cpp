@@ -2,6 +2,6 @@
 #include "queen.h";
 using namespace std;
 
-vector<int> Queen::getMoveSet() {
+vector<pair<int, int>> Queen::getMoveSet(int boardSize) {
     
 }

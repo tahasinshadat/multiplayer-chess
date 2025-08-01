@@ -2,6 +2,6 @@
 #include "bishop.h";
 using namespace std;
 
-vector<int> Bishop::getMoveSet() {
+vector<pair<int, int>> Bishop::getMoveSet(int boardSize) {
     
 }

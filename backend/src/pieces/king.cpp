@@ -2,6 +2,6 @@
 #include "king.h";
 using namespace std;
 
-vector<int> King::getMoveSet() {
+vector<pair<int, int>> King::getMoveSet(int boardSize) {
     
 }
